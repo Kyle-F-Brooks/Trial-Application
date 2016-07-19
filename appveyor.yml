@@ -3,7 +3,7 @@ deploy:
   description: 'Release v$(appveyor_build_version)'
   provider: GitHub
   auth_token:
-    secure: $env:github_access_token # your encrypted token from GitHub
+    secure: $(github_access_token) # your encrypted token from GitHub
   artifact: /.*\.exe/            # upload all NuGet packages to release assets
   draft: false
   prerelease: false
