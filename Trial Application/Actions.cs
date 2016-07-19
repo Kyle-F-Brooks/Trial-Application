@@ -17,5 +17,10 @@ namespace Trial_Application
         {
             return "Goodbye";
         }
+
+        public static int Addition()
+        {
+            return 1 + 1;
+        }
     }
 }

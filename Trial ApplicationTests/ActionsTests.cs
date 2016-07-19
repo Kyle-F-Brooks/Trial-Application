@@ -24,5 +24,12 @@ namespace Trial_Application.Tests
             var expected = "Goodbye";
             Assert.AreEqual(Actions.SayGoodbye(), expected);
         }
+
+        [TestMethod()]
+        public void AdditionTest()
+        {
+            var expected = 2;
+            Assert.AreEqual(Actions.Addition(), expected);
+        }
     }
 }
