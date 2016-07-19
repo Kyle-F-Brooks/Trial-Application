@@ -3,7 +3,7 @@ deploy:
   description: 'Release v$(appveyor_build_version)'
   provider: GitHub
   auth_token: $(github_access_token) # your encrypted token from GitHub
-  artifact: /.*\.exe/            # upload all NuGet packages to release assets
+  artifact: Trial Application\bin\Release\Trial Application.exe
   draft: false
   prerelease: false
   on:
