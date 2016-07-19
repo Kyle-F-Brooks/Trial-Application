@@ -12,6 +12,7 @@ namespace Trial_Application
         {
             Console.WriteLine(Actions.SayHello());
             Console.WriteLine(Actions.SayGoodbye());
+            Console.ReadKey();
         }
     }
 }
