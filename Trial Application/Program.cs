@@ -10,6 +10,8 @@ namespace Trial_Application
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Actions.SayHello());
+            Console.WriteLine(Actions.SayGoodbye());
         }
     }
 }
